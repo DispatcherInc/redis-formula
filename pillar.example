@@ -3,6 +3,7 @@ redis:
   user: redis
   port: 6379
   bind: 127.0.0.1
+  source_url: 'http://localhost/redis.tar.gz'
   snapshots:
     - '900 1'
     - '300 10'
