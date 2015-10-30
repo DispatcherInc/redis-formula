@@ -8,6 +8,7 @@
 {% set version = redis_settings.version|default('2.8.8') -%}
 {% set checksum = redis_settings.checksum|default('sha1=aa811f399db58c92c8ec5e48271d307e9ab8eb81') -%}
 {% set root = redis_settings.root|default('/usr/local') -%}
+{% set source_url = redis_settings.source_url -%}
 
 {# there is a missing config template for version 2.8.8 #}
 
